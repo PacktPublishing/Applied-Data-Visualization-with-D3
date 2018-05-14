@@ -1,0 +1,19 @@
+.heart {
+    stroke: red;
+    fill: red;
+}
+
+.lungs {
+    stroke: steelblue;
+    fill: steelblue;
+}
+
+.ecg{
+    stroke: red;
+    fill: red;
+}
+
+.resp{
+    stroke: steelblue;
+    fill: steelblue;
+}

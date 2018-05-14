@@ -1,0 +1,9 @@
+COPY(SELECT * FROM characters) TO 'characters.csv'
+    WITH CSV DELIMITER ',' HEADER ;
+COPY(SELECT * FROM locations) TO 'locations.csv'
+    WITH CSV DELIMITER ',' HEADER ;
+COPY(select episode_id, character_id, location_id, raw_character_text,
+    raw_location_text FROM script_lines s1
+    WHERE s1.character_id IS NOT NULL
+    AND episode_id = 1801) TO 'simpsons-s18e01.csv'
+    WITH CSV DELIMITER ',' HEADER ;
