@@ -22,8 +22,8 @@ To fully benefit from the coverage included in this course, you will need:<br/>
 This course is great for you if you are a JavaScript developer and want to start creating data visualizations. With various independent solutions, this course will explain all the steps you need to take to create beautiful interactive visualizations using D3.js
 ### Technical Requirements
 This course has the following software requirements:<br/>
-Node.js <br/>
-Editor to append the examples
+* [Node.js](https://nodejs.org/en/download/) <br/>
+* Editor to append the examples
 
 ## Related Products
 * [Creating Data Visualization with D3 [Video]](https://www.packtpub.com/big-data-and-business-intelligence/creating-data-visualization-d3-video?utm_source=github&utm_medium=repository&utm_campaign=9781789344820)
